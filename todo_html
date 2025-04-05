@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>待办事项</title>
+</head>
+
+<body>
+  <div class="header">
+    <h1>待办事项</h1>
+  </div>
+  <div class="todolist-container">
+    <div class="section">
+      <h2>正在进行</h2>
+      <div class="todo-item">
+        <input type="checkbox" id="task1">
+        <label for="task1">
+          <input type="text" placeholder="输入待办事项">
+        </label>
+        <input type="text" placeholder="输入日期和时间">
+      </div>
+      <div class="todo-item">
+        <input type="checkbox" id="task2">
+        <label for="task2">
+          <input type="text" placeholder="输入待办事项">
+        </label>
+        <input type="text" placeholder="输入日期和时间">
+      </div>
+    </div>
+    <div class="section">
+      <h2>已完成</h2>
+      <div class="todo-item">
+        <input type="checkbox" id="task3" checked>
+        <label for="task3">
+          <input type="text" placeholder="输入已完成事项">
+        </label>
+        <input type="text" placeholder="输入日期和时间">
+      </div>
+      <div class="todo-item">
+        <input type="checkbox" id="task4" checked>
+        <label for="task4">
+          <input type="text" placeholder="输入已完成事项">
+        </label>
+        <input type="text" placeholder="输入日期和时间">
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
